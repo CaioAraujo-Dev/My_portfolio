@@ -1,0 +1,451 @@
+
+h1, h2, h3, h4, h5{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0px;
+    background-color:#0e0f10; 
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;  
+}
+ 
+#about_me_section,#resume_section, #contacts_section, #projects_section{
+    scroll-margin-top: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* Menu Section*/
+.menu{
+    width: 10%;
+    height: 100%;
+    background-color: #1d1d22;
+    padding: 20px;
+    vertical-align: top;
+    text-align: center;
+    position: fixed;
+    box-sizing: border-box;
+}
+.menu a i{
+    font-size: 30px;
+}
+.menu a:hover{
+    color:darkslategray;
+}
+.menu p{
+    margin-bottom: 30px;
+}
+/* Menu Section End*/
+
+.content{
+    padding-left:25%;
+    padding-right:15% ;
+    vertical-align: top;
+}
+.title1{
+    text-align: center;
+    vertical-align: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.title2{
+    text-align: center;
+    vertical-align: center;
+    margin-top:200px;
+    margin-bottom: 50px;
+}
+.resume_title{
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.card-box{
+    display: flex;
+}
+.card-box-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.card-box-text{
+    margin-left: 20px;
+    text-align: start;
+}
+.city{
+    color: darkslategray;
+}
+.about_me{
+    min-height: 100px; 
+}
+.contacts{
+     height: 600px;
+     margin-top: 200px;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+.service_container{
+    display: flex;
+}
+.service_container .service_item{
+    width: 30%;
+    box-sizing: border-box;
+    margin:10px;
+}
+.service_container .service_item  .service_item_card{
+    
+    background-color: #070708;
+    border: 1px solid black;
+    border-radius: 16px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.service_container .service_item  .service_item_card:hover{
+    border: 2px solid darkslategray;
+}
+.service_container .service_item .service_item_card .service_item_card_icon{
+    height: 80px;
+    width: 80px;
+    background-color: #0e0f10;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 16px;
+}
+.service_container .service_item .service_item_card .service_item_card_icon:hover{
+    border: 2px solid darkslategray;
+} 
+.service_container .service_item .service_item_card .service_item_card_icon i{
+    font-size: 30px;
+}
+.service_container .service_item .service_item_card .service_item_card_title{
+    margin-bottom: 8px;
+    font-size: 10px;
+}
+span{
+    font-size: 13px;
+}
+.flexbox_item{
+background-color:#070708 ;
+height: 150px; 
+padding:20px;
+text-align: center;
+border-radius: 10px;
+padding-top: 50px;
+border-left: solid 2px darkslategray;
+}
+.flexbox_item2{
+    height: 650px;
+    background-color:#070708;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: solid 2px darkslategray;
+}
+
+.flexbox{
+    display: flex;
+    gap: 30px;
+}
+.flexbox_education{
+   width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.flexbox_experience{
+   width: 50%;
+}
+.card{
+    background-color: #070708;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    border-top: solid 2px darkslategray;
+}
+.card_contact{
+    background-color: #070708;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    border-bottom: solid 2px darkslategray;
+}
+.timeline_item{
+    margin-bottom: 30px;
+    border-left: 1px solid darkslategray;
+    padding-left: 32px;
+}
+.subtitle_flexbox{
+    padding-right: 40px;
+}
+.timeline_item_period{
+    font-size: 12px;
+    color: darkslategray;
+}
+.description{
+    padding-left: 30px;
+    font-size: 14px;
+}
+.facul{
+    padding-bottom: 25px;
+}
+.contact_card{
+    background-color: #070708;
+    margin-left: 20px;
+   width: 100%;
+   border-radius: 15px;
+   text-align: center;
+}
+.p_contact{
+    font-size: 15px;
+}
+.contacts h1{
+    font-size: 25px;
+}
+.contact_container{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin-top:50px ;
+}
+.linkedin a i{
+    font-size: 30px; 
+    margin-bottom: 20px;
+}
+.linkedin a:hover{
+    color: darkslategray;
+}
+
+.phone i{
+    font-size: 30px;
+      margin-bottom: 20px;
+}
+.Email i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects_cardbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+}
+.project-img img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+  
+}
+.project-card{
+    background-color: #070708;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: center;
+    border-bottom: solid 1px darkslategray;
+}
+
+.card-container{
+  display: flex;
+  gap: 20px;
+  margin-bottom:40px ;
+}
+.name-project{
+    font-weight: 700;
+    font-size: 20px;
+}
+.project-description{
+    font-size: 14px;
+    font-weight: 100;
+}
+.project-img:hover{
+    transform: translateY(-16px);
+}
+@keyframes translateY{
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to{
+        transform: translateY(-8px) scale(1.1);
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        padding: 0px;
+    }
+  
+    .content{
+        width: 100vw;
+    }
+ 
+    .service_container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+  .card-container{
+    flex-direction: column;
+  }
+  .card{
+    flex-direction: column;
+  }
+
+    .service_item_card{
+        margin-right: 0;
+        align-items: center;
+        justify-content: space-around;
+        width: 95vw;
+    }
+    .flexbox_experience{
+        width: 100vw;
+    }
+    .flexbox_item2{
+        height: fit-content;
+        width: 90%;
+    }
+    .flexbox_education{
+        width: 100vw;
+    }
+   .flexbox_item{
+    height: fit-content;
+   width: 80%;
+   }
+   
+   .contact_container{
+    flex-direction: column;
+    gap: 20px;
+   }
+   .contact_card{
+    width: 90vw;
+   }
+
+   .projects{
+        margin-top: 300px;
+   }
+   .flexbox{
+    flex-direction: column;
+   }    
+    .experience-section {
+      width: 100%;
+      margin: 0;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+    }
+    .card-box{
+        margin: 0;
+    }
+    .content {
+        padding: 0%;
+    }
+    .service-container{
+        margin-right: 25px;
+    }
+    .resume{
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+     
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects__cardbox{
+        display: flex;
+    }
+    }
+  
+  @media (max-width: 576px) {
+  
+    .card-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-container .service__item {
+      width: 100%;
+    }
+  
+    .projects__img img {
+      width: 290px;
+      height: 220px;
+    }
+  }
+@media (max-width: 990px) {
+ .card-box{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+ }
+ .resume{
+    height:350px;
+ }
+ .experience-section{
+    height: 100%;
+ }
+.projects__img img{
+    width: 240px;
+    height: 210px;
+}
+
+}
+@media (max-width:1275px
+){
+    
+    .flexbox_item2{
+        height: fit-content;
+    }
+    
+    .card-container{
+        flex-direction: column;
+    }
+}
+@media (max-width:1650px){
+    .projects__img img{
+        width: 280px;
+        height: 250px;
+    }
+}
